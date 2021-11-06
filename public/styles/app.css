@@ -1,0 +1,81 @@
+*
+{
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+.navbar
+{
+    background-color: rgb(116, 211, 174) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .8rem 1rem;
+    transition: all 0.4s ease-out;
+}
+
+.container-fluid
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 10vh;
+}
+
+.logo
+{
+    height: 5rem;
+    width: 5rem;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+body
+{
+    background-color: #a6c48a;
+    font-family: 'MontserratAlternates', sans-serif;
+    padding-top: 10rem ;
+    text-align: justify;
+}
+
+
+article
+{
+    padding-top: 5rem;
+
+}
+
+
+h1
+{
+    color: #333;
+    font-family: 'Biryani', sans-serif;
+}
+
+
+.banner
+{
+    height: 25rem;
+    width: 100%;
+}
+
+
+button
+{
+    background-color: #dd9787!important;
+}
+
+.logo_footer
+{
+    height: 20rem;
+    text-align: center;
+}
